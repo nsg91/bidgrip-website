@@ -1,14 +1,14 @@
-# Privacy Policy — One Meditation App
+# Privacy Policy — BidGrip
 
-**Effective Date:** December 12, 2025  
-**Owner / Operator:** One Meditation App (by Nicolas S.)  
+**Effective Date:** February 23, 2026
+**Owner / Operator:** BidGrip (by Nicolas S.)
 **Contact Email:** nsgn.one@gmail.com
 
 ---
 
 ## 1. Introduction
 
-Welcome to **One Meditation App** (“One Meditation App”, “we”, “us”, or “our”).
+Welcome to **BidGrip** (“BidGrip”, “we”, “us”, or “our”).
 
 This Privacy Policy explains how we collect, use, store, and protect information when you use our mobile application (“App”).
 
@@ -18,88 +18,67 @@ By using the App, you agree to this Privacy Policy.
 
 ## 2. Overview of Data Use
 
-- The App can be used **anonymously**, without signing in.
-- During onboarding, users are required to answer a small number of **personalization questions** and choose a **nickname**.
-- Signing in with Apple, Google, or email is required **only** if the user chooses to subscribe.
+- The App can initially be used anonymously, without signing in.
+- To sync data across devices or prevent data loss, users can create an account using Email, Apple, or Google sign-in.
+- The App is designed to help you manage your business, which means you will input data about your own clients and projects.
 - The App does **not** display ads and does **not** sell personal data.
 
 ---
 
 ## 3. Information We Collect
 
-### A. Mandatory Onboarding Information
-
-To personalize the experience, the App requires:
-
-- **Motivation or goal selections** (e.g., reduce stress, improve sleep)
-- **Meditation experience level**
-- **Nickname / display name**
-
-The nickname:
-- Does **not** need to be your real name  
-- Is chosen freely by you  
-- Is used only as a display name within the App  
-
-We do not require real names.
-
----
-
-### B. Account and Authentication Information
+### A. Account and Authentication Information
 
 Depending on how you use the App, we may collect:
 
-- **Anonymous user identifier** (when using the App without signing in)
-- **Apple or Google sign-in identifier** (if you choose to sign in)
-- **Email address** (only if you choose email sign-in)
-- Subscription status (active/inactive, plan type)
-
-We do not store plain-text passwords.
+- Anonymous user identifier (when using the App without signing in).
+- Apple or Google sign-in identifier (if you choose to link a social account).
+- Email address and password (if you choose email sign-in).
+- Subscription status (active/inactive, plan type) via our payment provider.
+- We do not store plain-text passwords.
 
 ---
 
-### C. App Usage and Practice Data
+### B. Business Profile Data
+
+To generate accurate quotes and invoices, we collect information you provide about your business, including:
+
+- Business name, contact name, email, and phone number.
+- Business address, country, and website.
+- Identifiers such as Tax IDs or Contractor License numbers.
+- Financial preferences (tax rates, currencies, payment terms).
+- Business logos uploaded to our cloud storage.
+
+---
+
+### C. Client Data
+
+To help you manage your projects, you may input data regarding your clients. This includes:
+
+- Client names, email addresses, phone numbers, and physical addresses.
+- Private notes regarding the client.
+Note: You are responsible for ensuring you have the right to enter your clients' information into the App.
+
+---
+
+### D. Quote, Invoice, and Catalog Data
 
 We collect data necessary to provide the App’s core features, including:
 
-- Daily agenda or routine items you create
-- Completion status of practices
-- Meditation sessions, durations, and streaks
-- Countdown timer usage
-- Participation in gamified spiritual practices
-- Ranking or score data derived from activity
+- Quote and invoice details (item descriptions, quantities, unit costs, pricing, discounts).
+- Document terms, notes, and payment instructions.
+- Photos: If you choose to attach them, we store images (such as "before and after" photos) related to your quotes.
+- Catalog items (services or products you save for reuse).
 
 ---
 
-### D. User-Generated Content
-
-If you choose to use these features, we may store:
-
-- Meditation audio files you upload
-- Titles or metadata related to uploaded content
-- Intentions submitted in the Oneness meditation space
-
-Some content (such as intentions or rankings) may be visible to other users depending on feature configuration. Do not share sensitive personal information in public areas.
-
----
-
-### E. Notifications Preferences
-
-If enabled by you, we may store:
-
-- Push notification preference (on/off)
-- Device token required to deliver push notifications
-- Email notification preference (if email communication is enabled)
-
----
-
-### F. Technical and Diagnostic Data
+### E. Technical and Diagnostic Data
 
 To maintain performance and reliability, we may collect:
 
-- Device type and operating system
-- App version and language
-- Crash logs and performance data
-- Basic usage events for diagnostics and improvement
+- Device type and operating system.
+- App version and language.
+- Crash logs and basic usage events for diagnostics and improvement.
 
 ---
 
@@ -107,28 +86,27 @@ To maintain performance and reliability, we may collect:
 
 We use collected information to:
 
-- Operate and personalize the App
-- Save your progress and preferences
-- Enable shared features such as the Oneness space and rankings
-- Maintain security and prevent misuse
-- Improve performance and user experience
-- Communicate important service-related information
+- Operate the App and generate PDF quotes/invoices.
+- Securely back up and sync your business data, clients, and photos to the cloud (Firebase).
+- Process subscription entitlements.
+- Maintain security and prevent misuse.
+- Improve performance and user experience.
 
-We do **not** sell or rent personal information.
+We do not sell or rent your personal information, nor do we sell the information of the clients you input into the App.
 
 ---
 
 ## 5. Subscriptions and Payments
 
-Subscriptions are processed by the **Apple App Store** or **Google Play Store**.
+Subscriptions are processed securely by the Apple App Store or Google Play Store, utilizing RevenueCat to manage entitlements.
 
-We do not receive payment card details. We may receive subscription status information solely to unlock premium features.
+We do not receive or store your payment card details. We only receive subscription status information (e.g., whether you are a "Pro" user) to unlock premium features.
 
 ---
 
 ## 6. Data Storage and Security
 
-We use reasonable technical and organizational measures to protect information. No system is completely secure, and use of the App is at your own risk.
+Your data (including user profiles, clients, quotes, and images) is securely stored using Google Firebase infrastructure (Firestore and Firebase Storage). We use reasonable technical and organizational measures to protect your information. However, no system is completely secure, and use of the App is at your own risk.
 
 ---
 
@@ -136,20 +114,26 @@ We use reasonable technical and organizational measures to protect information. 
 
 We retain information as long as necessary to provide the App and comply with legal obligations.
 
-Inactivity Deletion Policy: To ensure data privacy and minimize storage of unused data, we reserve the right to delete accounts and all associated data (including meditation history and streaks) that have been inactive for a continuous period of 6 months.
+Account Deletion: You can permanently delete your account and data directly within the App. When you trigger an account deletion:
 
-- Registered Users: We may attempt to notify you via email before deletion if you have provided one.
-- Anonymous Users: Data associated with anonymous accounts cannot be recovered once deleted due to inactivity.
+Your user profile, client list, catalog, and all quotes/invoices are permanently deleted from our database.
 
-You may also request immediate deletion of your data by using the "Delete Account" feature within the App settings or by contacting **nsgn.one@gmail.com**.
+Any images you uploaded (such as business logos or quote photos) are permanently deleted from our cloud storage.
+
+Your local device data is cleared.
+
+You may request immediate deletion of your data by using the "Delete Account" feature within the App settings or by contacting nsgn.one@gmail.com.
+(Note: For security purposes, you may be required to log in again recently before a deletion can be processed).
 
 ---
 
 ## 8. Anonymous Accounts and Account Linking
 
-If you start using the App anonymously and later sign in, your anonymous data may be linked to your signed-in account to preserve progress.
+If you start using the App anonymously, your data is stored locally and securely in the cloud under a temporary ID.
 
-If you uninstall the App without upgrading/signing in, anonymous data may be lost.
+Upgrading: You can convert your anonymous account to a permanent one by signing up with an email, Apple, or Google account. Your data will be preserved.
+
+Data Loss Warning: If you log into an already existing account while using an anonymous profile, your temporary anonymous data will not be migrated. If you uninstall the App without signing up, your anonymous data will be permanently lost.
 
 ---
 
@@ -157,30 +141,29 @@ If you uninstall the App without upgrading/signing in, anonymous data may be los
 
 Depending on your jurisdiction, you may have rights to:
 
-- Delete your account: You can permanently delete your account and data directly within the App by navigating to Settings > Account Info > Delete Account.
-- Access, correct, or delete your data
-- Request data portability
-- Withdraw consent where applicable
+- Delete your account: Navigate to the Account/Settings screen in the App to instantly delete your data.
+- Access, correct, or delete your data.
+- Withdraw consent where applicable.
 
-Push notifications can be disabled in the App and device settings.
+You can revoke camera and photo library access at any time via your device's native settings.
 
 ---
 
 ## 10. Children’s Privacy
 
-The App is not intended for children under 13. We do not knowingly collect data from children under 13.
+The App is designed for business professionals and contractors. It is not intended for children under 13. We do not knowingly collect data from children under 13.
 
 ---
 
 ## 11. International Data Transfers
 
-Your information may be processed in countries other than your own. We take steps to protect data under applicable laws.
+Your information may be processed in countries other than your own (such as the United States, where our database servers are located). We take steps to protect data under applicable laws.
 
 ---
 
 ## 12. Updates to This Policy
 
-We may update this Privacy Policy. Updates will be posted with a revised effective date.
+We may update this Privacy Policy as we add new features. Updates will be posted with a revised effective date.
 
 ---
 
