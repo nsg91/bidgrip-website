@@ -74,11 +74,7 @@ We collect data necessary to provide the App’s core features, including:
 
 ### E. Technical and Diagnostic Data
 
-To maintain performance and reliability, we may collect:
-
-- Device type and operating system.
-- App version and language.
-- Crash logs and basic usage events for diagnostics and improvement.
+We collect device type, operating system, and unique device identifiers (such as IDFA/IDFV) for analytics, attribution, and subscription management.
 
 ---
 
@@ -93,6 +89,7 @@ We use collected information to:
 - Improve performance and user experience.
 
 We do not sell or rent your personal information, nor do we sell the information of the clients you input into the App.
+We may use identifiers to track user activity across apps and websites for the purposes of advertising attribution and improving our marketing reach
 
 ---
 
@@ -161,13 +158,19 @@ Your information may be processed in countries other than your own (such as the 
 
 ---
 
-## 12. Updates to This Policy
+## 12. Data Tracking and Attribution
+
+We use industry-standard tools (such as Firebase and RevenueCat) to understand how users interact with our app and to manage subscription status. These tools may use device identifiers to attribute app installations and analyze marketing performance. This is considered 'tracking' under Apple's App Tracking Transparency framework.
+
+---
+
+## 13. Updates to This Policy
 
 We may update this Privacy Policy as we add new features. Updates will be posted with a revised effective date.
 
 ---
 
-## 13. Contact
+## 14. Contact
 
 For questions or requests related to privacy:
 
